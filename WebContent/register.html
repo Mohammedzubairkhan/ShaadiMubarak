@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <title>Registration Page</title>
+         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            .row_style{
+                padding-top: 90px;
+                align-self: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="foot">
+       
+        
+        <div class="container">
+             <div class="row row_style">
+                 <div class="col-xs-4 col-xs-offset-4">
+                    
+                             <form method="post" action="RegisterServlet">
+                                 <h1>Sign up</h1>
+                                 <div class="form-group">
+                                     <input type="text" name="name" placeholder="Name" class="form-control" register="true">
+                                 </div>
+                                 <div class="form-group">
+                                     <input type="email" name="email" class="form-control" placeholder="Email id" register="true">
+                                 </div><div class="form-group">
+                                     <input type="password" name="password" class="form-control" placeholder="********" register="true">
+                                 </div>
+                                 <div class="form-group">
+                                     <input type="tel" name="phno" placeholder="Contact Number" class="form-control" register="true">
+                                 </div>
+                                
+                   
+                                 <button type="submit" class="btn btn-primary">Submit</button>
+                             </form>
+                         
+                         
+                     </div>
+                     
+                 </div>
+             
+             </div>
+            
+        </div>
+        <br>
+        <br>
+        <hr>
+         <center> <a href="index.jsp">Home</a> | <a href="login.html">  Login</a></center>
+    </body>
+</html>

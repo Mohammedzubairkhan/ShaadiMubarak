@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>mzk</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>Caterer</servlet-name>
+    <servlet-class>com.servletmzk.Caterer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Caterer</servlet-name>
+    <url-pattern>/Caterer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>com.servletmzk.CartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/CartServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CartInserion</servlet-name>
+    <servlet-class>com.servletmzk.CartInserion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CartInserion</servlet-name>
+    <url-pattern>/CartInserion</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>TrendingServlet</servlet-name>
+    <servlet-class>com.servletmzk.TrendingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TrendingServlet</servlet-name>
+    <url-pattern>/TrendingServlet</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>TrustedServlet</servlet-name>
+    <servlet-class>com.servletmzk.TrustedServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TrustedServlet</servlet-name>
+    <url-pattern>/TrustedServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>BudgetServet</servlet-name>
+    <servlet-class>com.servletmzk.BudgetServet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BudgetServet</servlet-name>
+    <url-pattern>/BudgetServet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.servletmzk.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.servletmzk.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.servletmzk.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>DeleteServletCart</servlet-name>
+    <servlet-class>com.servletmzk.DeleteServletCart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteServletCart</servlet-name>
+    <url-pattern>/DeleteServletCart</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>com.servletmzk.ProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/ProductServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ReviewServlet</servlet-name>
+    <servlet-class>com.servletmzk.ReviewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReviewServlet</servlet-name>
+    <url-pattern>/ReviewServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
+</element>
